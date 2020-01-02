@@ -1,0 +1,146 @@
+<!DOCTYPE HTML>
+<html>
+    <head> 
+        <title> courses </title>
+        <link rel="icon" href="http://www.ccj34.com/wp-content/uploads/2018/10/Cours256.png">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+       <!-- jQuery Modal -->
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+
+    <script>
+         $(document).ready(function(){
+    $(".imgbox1").mouseenter(function(){
+        $(".imgbox1").fadeTo("fast",0.7);
+        $(".imgbox1 button").fadeTo("fast",1);
+        $("#view11").click(function(){
+            $("#view11").hide();
+        });
+    });
+    $(".imgbox1").mouseleave(function(){
+        $(".imgbox1").fadeTo("fast",1);
+        $("#view11").hide();
+    });
+    
+});
+$(document).ready(function(){
+    $(".imgbox2").mouseenter(function(){
+        $(".imgbox2").fadeTo("fast",0.7);
+        $(".imgbox2 button").fadeTo("fast",1);
+        $("#view12").click(function(){
+            $("#view12").hide();
+        });
+    });
+    $(".imgbox2").mouseleave(function(){
+        $(".imgbox2").fadeTo("fast",1);
+        $("#view12").hide();
+    });
+    
+});$(document).ready(function(){
+    $(".imgbox3").mouseenter(function(){
+        $(".imgbox3").fadeTo("fast",0.7);
+        $(".imgbox3 button").fadeTo("fast",1);
+        $("#view13").click(function(){
+            $("#view13").hide();
+        });
+    });
+    $(".imgbox3").mouseleave(function(){
+        $(".imgbox3").fadeTo("fast",1);
+        $("#view13").hide();
+    });
+    
+});
+    </script>
+    </head>
+    <body>
+        <div class="wholepage">
+            <div class="div1">
+            <ul>
+                <li>
+                    <a href="index.html"> Home</a>
+                </li>
+                <li>
+                    <a href="courses.html">Courses</a>
+                </li>
+                <li> 
+                    <a href="contact.html">Contact</a>
+                </li>
+    
+            </ul>
+            </div>
+        <div class="div4">
+        <h1>COURSES</h1>
+        </div>
+     <div class="div5">
+         <div class="container">
+          <div class="box"><div class="imgbox1">
+              <!-- Modal HTML embedded directly into document -->
+            <div id="ex11" class="modal">
+                <p>This is a GoMyCode Track.<br>
+                    Each track has its own goal.<br>
+                    By adopting this track, you chose your own goal.</p>
+               
+              </div>
+              
+              <!-- Link to open the modal -->
+            </button><a href="#ex11" rel="modal:open" style="text-decoration: none;"><button id="view11">view more</a></button></div></div>
+          <div class="box"> <div class="imgbox2">
+               <!-- Modal HTML embedded directly into document -->
+            <div id="ex12" class="modal">
+                <p>This is a GoMyCode Track.<br>
+                    Each track has its own goal.<br>
+                    By adopting this track, you chose your own goal.</p>
+               
+              </div>
+              
+              <!-- Link to open the modal -->
+            </button><a href="#ex12" rel="modal:open" style="text-decoration: none;"><button id="view12">view more</a></button></div></div>
+          
+          <div class="box"><div class="imgbox3"><!-- Modal HTML embedded directly into document -->
+            <div id="ex13" class="modal">
+                <p>This is a GoMyCode Track.<br>
+                    Each track has its own goal.<br>
+                    By adopting this track, you chose your own goal.</p>
+               
+              </div>
+              
+              <!-- Link to open the modal -->
+            </button><a href="#ex13" rel="modal:open" style="text-decoration: none;"><button id="view13">view more</a></button></div></div>
+          <div class="box"><div class="imgbox4"></div></div>
+          <div class="box"><div class="imgbox5"></div></div>
+          <div class="box"><div class="imgbox6"></div></div>
+          <div class="box"><div class="imgbox7"></div></div>
+          <div class="box"><div class="imgbox8"></div></div>
+          <div class="box"><div class="imgbox9"></div></div>
+        </div>
+         <div class="feedback">
+         <center><h2 style="text-align:center;font-size:200%;color: rgb(235, 221, 221);font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Feedback</h2>
+         
+            <button  onclick="optionbold()"><b>B</b></button>
+            <button onclick="optionstyle()"><i>I</i></button>
+            <button onclick="optiondecoration()"><u>Underline</u></button>
+            <select  id="liste" onchange="optionsize()">
+                <option value="20">20px</option>
+                <option value="40">40px</option>
+                <option value="60">60px</option>
+            </select>
+            <select id="list" onchange="optionfamily()">
+                <option vlaue="Arial">Arial</option>
+                <option vlaue="Times New Roman"> Times New Roman</option>
+                <option vlaue="Calibri"> Calibri</option>
+            </select>
+            <br>
+            <div class="container7">
+            <textarea  id="text" > js checkpoint </textarea>
+            </div>
+            </center>
+        </div>
+         </div>
+        </div>
+        
+        
+      
+    </body>
+    <script src="main.js"></script>
+</html>
