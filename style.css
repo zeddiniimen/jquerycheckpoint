@@ -14,11 +14,10 @@ body{
     height: 80px;
     justify-content: center;   
 }
-ul li{
-    display:inline-block;   
-}
+
 
  li a{
+     text-align:center;
     font-size:200%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: none;
